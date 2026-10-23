@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sonidos</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style/style.css">
+</head>
+<body>
+
+  <header class="header">
+    <a href="index.html" class="logo" aria-label="Inicio">
+        <img src="../img/LogoSonora.svg" alt="LogoSonora">
+    </a>
+
+    <div class="buscador">
+      <input type="text" placeholder="Buscar sonidos...">
+    </div>
+
+    <div class="pfp">PFP</div>
+  </header>
+
+  <nav class="sidebar">
+    <ul>
+      <li>
+        <a href="#">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 15V4M7 9l5-5 5 5M4 20h16"/></svg>
+          Subir
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L8 18l-4 1 1-4z"/></svg>
+          Modificar
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h16M10 11v6M14 11v6M5 7l1 13h12l1-13M9 7V4h6v3"/></svg>
+          Eliminar
+        </a>
+      </li>
+      <li>
+        <a href="SonidosLogin.html">Todos los sonidos</a>
+      </li>
+      <li>
+        <a href="#" class="activo">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 10v4M7 7v10M11 4v16M15 8v8M19 10v4"/></svg>
+          Mis sonidos
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <main class="contenido">
+    <section class="carrusel">
+      <h2>Más descargados esta semana</h2>
+      <div class="carrusel-fila">
+        <button class="flecha" aria-label="Anterior">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+        </button>
+        <div class="tarjeta tarjeta-lateral">Ciudad de noche</div>
+        <div class="tarjeta tarjeta-central">Lluvia en tejado</div>
+        <div class="tarjeta tarjeta-lateral">Pasos en grava</div>
+        <button class="flecha" aria-label="Siguiente">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
+        </button>
+      </div>
+      <div class="puntos">
+        <span class="activo"></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </section>
+
+    <section class="carrusel">
+      <h2>Top sonidos del mes</h2>
+      <div class="carrusel-fila">
+        <button class="flecha" aria-label="Anterior">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+        </button>
+        <div class="tarjeta tarjeta-lateral">Teclado mecánico</div>
+        <div class="tarjeta tarjeta-central">Viento en bosque</div>
+        <div class="tarjeta tarjeta-lateral">Clic de interfaz</div>
+        <button class="flecha" aria-label="Siguiente">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
+        </button>
+      </div>
+      <div class="puntos">
+        <span class="activo"></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </section>
+
+    <section class="carrusel">
+      <h2>Sonidos más recientes</h2>
+      <div class="carrusel-fila">
+        <button class="flecha" aria-label="Anterior">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+        </button>
+        <div class="tarjeta tarjeta-lateral">Notificación suave</div>
+        <div class="tarjeta tarjeta-central">Campanas</div>
+        <div class="tarjeta tarjeta-lateral">Tren llegando</div>
+        <button class="flecha" aria-label="Siguiente">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
+        </button>
+      </div>
+      <div class="puntos">
+        <span class="activo"></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </section>
+  </main>
+
+</body>
+</html>
